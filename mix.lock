@@ -1,0 +1,5 @@
+%{
+  "atomvm_neopixel": {:git, "https://github.com/atomvm/atomvm_neopixel", "4eaea236ff36b5faf4027b4c25d2e26418b590ec", []},
+  "exatomvm": {:git, "https://github.com/atomvm/ExAtomVM", "14b780aaa5103981da2523e3889174a0295600f0", [branch: "main"]},
+  "neopixel": {:git, "https://github.com/atomvm/atomvm_neopixel", "4eaea236ff36b5faf4027b4c25d2e26418b590ec", []},
+}
