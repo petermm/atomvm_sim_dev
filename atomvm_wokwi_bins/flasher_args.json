@@ -1,28 +1,28 @@
 {
-	"write_flash_args": [
-		"--flash_mode",
-		"dio",
-		"--flash_size",
-		"4MB",
-		"--flash_freq",
-		"40m"
-	],
-	"flash_settings": {
-		"flash_mode": "dio",
-		"flash_size": "4MB",
-		"flash_freq": "40m"
-	},
-	"flash_files": {
-		"0x1000": "../../OSScontrib/AtomVM/src/platforms/esp32/build/bootloader/bootloader.bin",
-		"0x10000": "../../OSScontrib/AtomVM/src/platforms/esp32/build/atomvm-esp32.bin",
-		"0x8000": "../../OSScontrib/AtomVM/src/platforms/esp32/build/partition_table/partition-table.bin",
-		"0x1D0000": "../../OSScontrib/AtomVM/build/libs/esp32boot/elixir_esp32boot.avm",
-		"0x250000": "../atomvm_sim_dev.avm"
-	},
-	"extra_esptool_args": {
-		"after": "hard_reset",
-		"before": "default_reset",
-		"stub": true,
-		"chip": "esp32"
-	}
+  "write_flash_args": [
+    "--flash_mode",
+    "dio",
+    "--flash_size",
+    "4MB",
+    "--flash_freq",
+    "40m"
+  ],
+  "flash_settings": {
+    "flash_mode": "dio",
+    "flash_size": "4MB",
+    "flash_freq": "40m"
+  },
+  "flash_files": {
+    "0x1000": "../../AtomVM/src/platforms/esp32/build/bootloader/bootloader.bin",
+    "0x10000": "../../AtomVM/src/platforms/esp32/build/atomvm-esp32.bin",
+    "0x8000": "../../AtomVM/src/platforms/esp32/build/partition_table/partition-table.bin",
+    "0x1D0000": "../../AtomVM/build/libs/esp32boot/elixir_esp32boot.avm",
+    "0x250000": "../atomvm_sim_dev.avm"
+  },
+  "extra_esptool_args": {
+    "after": "hard_reset",
+    "before": "default_reset",
+    "stub": true,
+    "chip": "esp32"
+  }
 }

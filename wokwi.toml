@@ -8,3 +8,6 @@ elf = 'atomvm_wokwi_bins/flasher_args.json'
 #[[net.forward]]
 #from = "localhost:8180"
 #to = "target:80"
+[[chip]]
+name = 'gps-neo6m'
+binary = 'chips/gps-neo6m.chip.wasm'

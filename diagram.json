@@ -8,6 +8,13 @@
       "id": "esp",
       "top": 0,
       "left": 0,
+      "attrs": { "cpuFrequency": "12" }
+    },
+    {
+      "type": "chip-gps-neo6m",
+      "id": "chip1",
+      "top": 145.02,
+      "left": 177.6,
       "attrs": {}
     },
     {
@@ -36,7 +43,9 @@
     ["sd1:DI", "esp:23", "magenta", ["h38.4", "v-96.09", "h-139.93", "v77.03"]],
     ["esp:34", "pot1:SIG", "green", ["h0"]],
     ["esp:3V3", "pot1:VCC", "red", ["h0"]],
-    ["pot1:GND", "esp:GND.2", "black", ["v57.6", "h139.16"]]
+    ["pot1:GND", "esp:GND.2", "black", ["v57.6", "h139.16"]],
+    ["chip1:TX", "esp:16", "purple", ["h11.41", "v-19.2"]],
+    ["esp:17", "chip1:RX", "gray", ["h210.71", "v67.2"]]
   ],
   "dependencies": {}
 }

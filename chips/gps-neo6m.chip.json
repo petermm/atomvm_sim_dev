@@ -1,0 +1,6 @@
+{
+  "name": "gps-neo6m",
+  "author": "speedy",
+  "pins": ["VCC", "GND", "RX", "TX"],
+  "controls": []
+}
