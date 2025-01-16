@@ -1,7 +1,7 @@
 {
     "filewatcher.commands": [
         {
-            "match": "\\.ex*",
+            "match": "\\.(ex|exs|erl)$",
             "isAsync": true,
             "vscodeTask": [
                 "workbench.action.tasks.runTask",
